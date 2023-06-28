@@ -70,11 +70,15 @@ export default function LoginModal() {
       >
         <div className="flex flex-col">
           <div className="absolute left-5 top-2"></div>
-          <h2 className="text-5xl pt-6 pb-16 text-center mt-16">
-            Hello There!
-          </h2>
+
           <div className="flex flex-col">
-            <form onSubmit={handleSubmit}>
+            <form
+              className="flex flex-col"
+              onSubmit={(e) => {
+                handleSubmit;
+              }}
+            >
+              <h2 className="text-5xl pt-6 pb-16 text-center mt-24">Hi!</h2>
               <input
                 name="user_firstname"
                 type="text"
@@ -83,6 +87,7 @@ export default function LoginModal() {
                 value={userData.user_firstname}
                 onChange={handleChange}
               />
+
               <input
                 name="user_lastname"
                 type="text"

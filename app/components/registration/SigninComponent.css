@@ -1,0 +1,16 @@
+.loginButton {
+    background-color: var(--color0);
+}
+
+.loginButton:hover {
+    background-color: var(--color1);
+}
+
+.signupLink {
+    color: var(--color0);
+}
+
+.loginInput:focus {
+    outline: none;
+    border-color: var(--color0);
+}

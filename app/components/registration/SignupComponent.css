@@ -1,0 +1,23 @@
+.heroSection {
+    background-image: url(../../../public//images/BackgroundPaw.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position:right;
+    height: 100vh;
+    background-color: var(--color0);
+}
+
+.heroButtons {
+    background-color: var(--color1);
+}
+
+.heroButtons:nth-child(2) {
+    background-color: var(--color2);
+}
+.heroButtons:hover {
+    background-color: var(--color3);
+}
+
+.heroButtons:nth-child(2):hover {
+    background-color: var(--color3);
+}
